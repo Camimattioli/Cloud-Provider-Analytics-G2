@@ -1,0 +1,401 @@
+ResourceId,OrgId,Service,Region,CreatedDate,State,env,pii,costcenter,team,backup
+eubfn9kr,pnsm43d8,compute,sa-east,2025-08-14,running,prod,False,Sin Asignar,Sin Asignar,False
+fvb66h3r,i7p5tb94,database,ap-south,2025-06-05,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+cbrlqmn4,d14ve92m,storage,eu-central,2025-08-10,running,prod,True,Sin Asignar,Sin Asignar,False
+ew1yf0dw,pja1wj0t,networking,us-west,2025-06-02,running,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+n6mbypjd,pja1wj0t,storage,us-west,2025-06-05,running,prod,False,beta,Sin Asignar,False
+aw1lxxd8,1t2tala7,compute,eu-central,2025-05-20,running,Sin Especificar,True,alpha,core,False
+gr6e7ga2,ly8ozcyw,database,ap-south,2025-08-07,stopped,dev,True,Sin Asignar,Sin Asignar,False
+z5p3vob5,n9j2qp89,compute,sa-east,2025-06-21,running,prod,False,Sin Asignar,core,False
+po4ljedg,ir4cowgz,analytics,sa-east,2025-07-21,running,prod,False,Sin Asignar,ml,True
+1f8yc8gz,phr62gds,storage,ap-south,2025-06-24,terminated,Sin Especificar,False,alpha,Sin Asignar,False
+ololn3eh,n9j2qp89,compute,ap-northeast,2025-06-17,terminated,dev,False,Sin Asignar,Sin Asignar,False
+r1necqor,1n13jcat,database,eu-central,2025-07-02,terminated,Sin Especificar,True,beta,ml,False
+6atvd1xe,afeyuhz1,compute,ap-northeast,2025-05-14,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+dwh8n92t,pbhsahxt,storage,sa-east,2025-07-29,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+8tb38wxg,okep7y6w,storage,eu-west,2025-08-12,running,dev,False,Sin Asignar,core,False
+jjy94h4k,874frhoc,storage,eu-west,2025-05-17,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+0ukoefuk,a7tz0ync,analytics,sa-east,2025-06-22,running,Sin Especificar,True,alpha,ml,False
+s258w9zj,1swjckjl,database,us-east,2025-05-19,stopped,Sin Especificar,False,beta,Sin Asignar,False
+mqvayxar,axeqbnhl,storage,ap-northeast,2025-05-31,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+o6z1t2xc,1swjckjl,database,ap-south,2025-07-12,running,Sin Especificar,False,Sin Asignar,core,False
+63qe8nvn,cvs4f8cg,networking,ap-south,2025-08-07,running,Sin Especificar,False,Sin Asignar,core,False
+enga01yz,kdgigatj,database,sa-east,2025-05-16,stopped,dev,False,Sin Asignar,Sin Asignar,False
+dwkzirnk,dhylurtp,compute,eu-west,2025-07-23,stopped,dev,False,Sin Asignar,ml,False
+9wdjsgg0,253j2d54,compute,eu-west,2025-06-11,stopped,prod,False,Sin Asignar,Sin Asignar,False
+cecjuis2,n9j2qp89,genai,eu-central,2025-07-12,running,dev,False,Sin Asignar,Sin Asignar,False
+4a8ywy5a,1swjckjl,database,us-west,2025-07-28,stopped,Sin Especificar,True,beta,Sin Asignar,True
+7b7p9jyq,pseimvih,analytics,us-east,2025-06-04,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+15ikpqah,hv3a3zmf,networking,ap-northeast,2025-05-23,stopped,Sin Especificar,False,Sin Asignar,ml,False
+539iy87h,om5igqpk,compute,eu-central,2025-07-26,running,Sin Especificar,False,beta,Sin Asignar,False
+lwdr3vwm,rixa11dp,analytics,us-west,2025-07-06,running,Sin Especificar,False,alpha,core,False
+r833sicv,i3qk2iag,genai,eu-west,2025-05-22,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+1wudcbl4,pnsm43d8,compute,sa-east,2025-08-12,stopped,Sin Especificar,False,Sin Asignar,ml,False
+2c2bvpdc,pbhsahxt,genai,eu-central,2025-05-22,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+owo52wqq,dhylurtp,storage,ap-northeast,2025-05-24,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+5wm72qlg,1swjckjl,database,eu-west,2025-05-15,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+vc2guwjp,ir4cowgz,database,eu-central,2025-05-13,stopped,Sin Especificar,False,Sin Asignar,ml,True
+i2clp81l,he7ur23g,compute,eu-central,2025-05-28,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+flmnavyc,53lc58dr,analytics,us-east,2025-07-05,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+m9xhcgry,xll4zklo,networking,eu-west,2025-08-19,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+vlu8wpfq,pbhsahxt,compute,ap-south,2025-07-28,stopped,dev,False,Sin Asignar,core,False
+haiiwi08,jxepq85j,storage,us-east,2025-06-07,running,Sin Especificar,True,beta,Sin Asignar,False
+0hg9ncbe,ly8ozcyw,analytics,us-east,2025-07-24,running,dev,False,alpha,ml,False
+w6m9hkhj,cvs4f8cg,database,sa-east,2025-07-22,running,prod,False,alpha,Sin Asignar,True
+ihgjd3ex,8mdd4v30,database,eu-central,2025-05-20,stopped,prod,False,Sin Asignar,ml,True
+ki3x7995,tvhhpbmy,compute,us-west,2025-05-09,terminated,Sin Especificar,False,Sin Asignar,ml,False
+e5egtylp,3t60rjiw,compute,ap-northeast,2025-06-02,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+71v4kfiw,t9nt3w5u,compute,us-east,2025-08-19,running,Sin Especificar,True,alpha,ml,False
+485hcqxc,dzr1yxr2,networking,ap-south,2025-05-26,running,Sin Especificar,True,Sin Asignar,Sin Asignar,True
+51nsgzsr,0lvsnujz,database,sa-east,2025-07-20,terminated,prod,False,Sin Asignar,Sin Asignar,True
+uw2xh6qi,nam148p0,compute,sa-east,2025-07-15,running,prod,False,Sin Asignar,Sin Asignar,True
+5u7ntedq,ly8ozcyw,storage,eu-west,2025-07-20,running,Sin Especificar,False,alpha,ml,False
+bsmqpnrj,d14ve92m,database,eu-west,2025-06-05,running,dev,False,Sin Asignar,ml,False
+ixmc4sx2,i3qk2iag,storage,eu-central,2025-08-10,running,dev,False,Sin Asignar,core,False
+emtmyj01,c11ertj5,compute,ap-northeast,2025-05-14,stopped,Sin Especificar,False,alpha,Sin Asignar,False
+gve4ztj1,vyie6ivw,database,us-east,2025-05-21,running,prod,True,alpha,Sin Asignar,False
+2oouxqs1,h2m5zja8,networking,sa-east,2025-05-19,terminated,prod,True,Sin Asignar,Sin Asignar,False
+oi0rs210,ktakpuxq,compute,us-east,2025-06-19,running,prod,False,Sin Asignar,core,True
+lg1zhqun,1t2tala7,analytics,eu-central,2025-07-07,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+7a34mpyo,okep7y6w,storage,ap-south,2025-06-01,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+vubf99u2,c11ertj5,compute,ap-south,2025-07-11,terminated,dev,True,Sin Asignar,Sin Asignar,False
+hotgduq6,pac56t4u,compute,us-west,2025-08-07,running,Sin Especificar,False,Sin Asignar,core,True
+yg3vah6n,w3zp08j3,database,ap-northeast,2025-05-12,running,prod,False,Sin Asignar,ml,False
+xccsg4of,zbikcidk,storage,ap-northeast,2025-08-14,running,Sin Especificar,False,Sin Asignar,ml,False
+ep0o6h5l,ktakpuxq,genai,us-west,2025-06-23,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+fulhzqh9,pbhsahxt,analytics,us-west,2025-08-14,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+3vilurqb,teiyzcot,networking,us-east,2025-06-04,stopped,prod,False,Sin Asignar,ml,False
+x7m42o34,dzr1yxr2,database,ap-northeast,2025-05-30,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+60q6guo8,cvs4f8cg,analytics,us-west,2025-05-12,running,dev,True,Sin Asignar,Sin Asignar,False
+f5txc066,he7ur23g,networking,ap-northeast,2025-07-18,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+t9cd1lqj,253j2d54,genai,us-east,2025-06-13,terminated,dev,False,Sin Asignar,core,False
+awyqmogb,9mx2x18h,networking,us-west,2025-08-02,terminated,Sin Especificar,False,alpha,core,False
+zeyqqcxz,xll4zklo,compute,us-west,2025-07-11,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+qkf4vge0,1n13jcat,storage,ap-northeast,2025-08-16,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+c1yfmhby,53lc58dr,genai,eu-central,2025-05-13,running,dev,False,beta,Sin Asignar,True
+bwsxxdyp,0lvsnujz,analytics,us-east,2025-08-05,terminated,Sin Especificar,False,Sin Asignar,core,False
+bnhi6hab,9mx2x18h,database,ap-northeast,2025-07-06,running,prod,False,Sin Asignar,ml,False
+yc8d4x0b,ujv6oh9s,compute,us-east,2025-05-05,running,Sin Especificar,False,Sin Asignar,ml,False
+3lww7opi,1swjckjl,compute,ap-south,2025-07-02,stopped,prod,True,Sin Asignar,ml,False
+goloqc3x,i7p5tb94,database,ap-northeast,2025-07-27,running,Sin Especificar,True,beta,core,False
+5o1r9z27,t9nt3w5u,analytics,us-east,2025-07-10,running,prod,False,Sin Asignar,Sin Asignar,True
+8v9zy9yl,he7ur23g,compute,ap-northeast,2025-05-07,stopped,Sin Especificar,True,beta,Sin Asignar,True
+rmvvnxiv,chj755nf,compute,eu-central,2025-07-03,stopped,Sin Especificar,False,Sin Asignar,core,False
+iw6l01wc,fel6246h,genai,ap-northeast,2025-08-12,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+hnxi09p5,ktakpuxq,database,us-west,2025-06-12,stopped,prod,False,Sin Asignar,Sin Asignar,False
+kx1s9xka,kdgigatj,networking,us-east,2025-08-08,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+it6xiyzv,g8sbi4q2,storage,us-west,2025-05-21,running,prod,True,alpha,Sin Asignar,False
+gwcr8b97,chj755nf,analytics,us-east,2025-08-14,running,prod,False,Sin Asignar,core,False
+gt2hspqf,vyie6ivw,analytics,ap-south,2025-06-27,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+pvku8h5r,c11ertj5,database,ap-northeast,2025-08-14,running,Sin Especificar,False,beta,Sin Asignar,False
+ogps0132,4zw9xa3k,storage,us-west,2025-05-15,stopped,Sin Especificar,False,Sin Asignar,core,False
+1pc6kttg,nam148p0,storage,sa-east,2025-06-06,running,dev,True,Sin Asignar,Sin Asignar,False
+lkurlzh6,dbdw2pcn,compute,eu-west,2025-07-16,running,Sin Especificar,False,Sin Asignar,core,False
+as0r778n,n9j2qp89,networking,eu-central,2025-05-26,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+l9c59e7f,g8sbi4q2,database,us-west,2025-05-26,running,prod,True,Sin Asignar,Sin Asignar,False
+11mzwncn,rixa11dp,compute,sa-east,2025-08-02,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+ib3wyzxj,53lc58dr,database,us-west,2025-05-29,running,Sin Especificar,False,beta,ml,True
+jv84a1x7,i7p5tb94,storage,ap-northeast,2025-05-07,running,Sin Especificar,True,alpha,Sin Asignar,False
+9c65fpys,axeqbnhl,compute,ap-northeast,2025-07-23,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+v0175du2,ofqewaou,analytics,sa-east,2025-08-07,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+jh0zagrd,pvs7hzio,networking,ap-south,2025-05-26,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+sx0gnzhg,sg65kxvf,database,ap-northeast,2025-07-19,stopped,dev,False,alpha,ml,False
+3gcg1j6o,9mx2x18h,compute,ap-south,2025-08-08,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+5fknjmvr,5iqvnb4g,database,sa-east,2025-08-16,stopped,Sin Especificar,False,Sin Asignar,ml,False
+aj8x2bh2,y9v86wzs,compute,ap-south,2025-05-07,stopped,Sin Especificar,True,alpha,Sin Asignar,True
+917rmpn6,cwi64ciy,compute,us-west,2025-06-06,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+7xncmldq,w3zp08j3,storage,ap-south,2025-08-20,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+05ev5kz3,i3qk2iag,compute,ap-northeast,2025-08-09,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+qy5sxaw7,pbhsahxt,networking,sa-east,2025-06-28,running,Sin Especificar,False,beta,core,False
+w580yir0,ykl1cq99,networking,ap-northeast,2025-06-05,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+m77rxzdn,4zw9xa3k,genai,ap-northeast,2025-05-04,running,dev,False,Sin Asignar,Sin Asignar,False
+z552zbrd,3t60rjiw,genai,sa-east,2025-07-10,running,dev,False,Sin Asignar,ml,True
+8rtig7zd,x7eedtjv,networking,eu-west,2025-08-13,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+7lnkzx8y,ir4cowgz,storage,ap-south,2025-06-11,running,prod,False,Sin Asignar,Sin Asignar,False
+7wr2liu7,ofqewaou,storage,us-west,2025-05-20,running,Sin Especificar,False,beta,ml,False
+m600x28p,0lzjjege,compute,us-west,2025-08-17,stopped,dev,False,Sin Asignar,ml,False
+jkemvg7u,uzfk8ut0,compute,sa-east,2025-06-28,running,prod,True,Sin Asignar,Sin Asignar,True
+8uact49l,ujv6oh9s,storage,sa-east,2025-06-15,terminated,Sin Especificar,False,beta,Sin Asignar,False
+27exvda4,1swjckjl,database,us-east,2025-06-18,running,prod,False,beta,ml,False
+4rqvfx2z,i7p5tb94,storage,eu-west,2025-05-23,running,prod,False,beta,Sin Asignar,False
+syj4uwhk,uzfk8ut0,networking,us-east,2025-08-03,stopped,Sin Especificar,True,Sin Asignar,core,False
+9l3h03zb,h2m5zja8,genai,ap-northeast,2025-05-09,running,prod,False,Sin Asignar,Sin Asignar,False
+40k36fao,pbhsahxt,genai,us-east,2025-05-11,stopped,dev,True,beta,Sin Asignar,False
+91otkzh4,ohp6vz41,database,sa-east,2025-08-05,stopped,Sin Especificar,True,Sin Asignar,core,False
+e1u24zqf,chj755nf,storage,us-east,2025-05-19,running,dev,False,beta,Sin Asignar,False
+r6h2hxn4,x7eedtjv,genai,ap-northeast,2025-07-21,stopped,Sin Especificar,False,beta,ml,True
+n9ygcmr8,g8sbi4q2,networking,ap-northeast,2025-06-13,stopped,Sin Especificar,False,alpha,ml,False
+xv8wobir,okep7y6w,compute,ap-south,2025-07-05,running,prod,False,beta,Sin Asignar,False
+019ydq3n,53lc58dr,analytics,ap-northeast,2025-06-26,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+necrysau,dhylurtp,database,us-west,2025-07-14,stopped,prod,False,beta,Sin Asignar,True
+02grxpud,pseimvih,storage,us-west,2025-05-12,stopped,Sin Especificar,False,Sin Asignar,ml,False
+z5tozo32,5lxo6qji,compute,eu-west,2025-05-08,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+c4t3x1hx,0lzjjege,networking,ap-northeast,2025-05-22,running,Sin Especificar,False,Sin Asignar,ml,False
+gvgt2eeh,dhylurtp,networking,sa-east,2025-07-12,running,prod,False,Sin Asignar,Sin Asignar,False
+dj1dek8g,h2m5zja8,networking,eu-west,2025-06-02,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+ib86ktfr,tvhhpbmy,genai,us-east,2025-07-02,terminated,Sin Especificar,False,beta,Sin Asignar,False
+s9mthd3i,om5igqpk,genai,sa-east,2025-07-02,running,dev,False,Sin Asignar,ml,False
+k38vhmew,t1ghr09s,compute,ap-south,2025-08-12,running,prod,False,alpha,ml,False
+jxfq8y7f,i7p5tb94,compute,sa-east,2025-07-24,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+c09zgnx3,9t84azyt,database,eu-west,2025-05-07,stopped,dev,False,Sin Asignar,ml,False
+l2n8ijty,tvhhpbmy,networking,us-west,2025-06-03,running,Sin Especificar,True,Sin Asignar,core,False
+ld62f2jd,chj755nf,networking,ap-northeast,2025-08-20,running,dev,False,Sin Asignar,Sin Asignar,False
+nd7g0l3r,axeqbnhl,analytics,eu-central,2025-05-26,terminated,Sin Especificar,False,beta,Sin Asignar,True
+ukjdbl1g,g0fn9xuy,storage,us-east,2025-06-29,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+reasfen0,53lc58dr,compute,eu-central,2025-06-07,stopped,Sin Especificar,True,beta,core,False
+9zivzg92,zbikcidk,genai,eu-west,2025-06-24,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+8sz7iwdl,ly8ozcyw,genai,ap-northeast,2025-07-27,running,Sin Especificar,True,beta,core,False
+wcidudk7,y9v86wzs,storage,ap-northeast,2025-05-12,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+y7eryyte,teiyzcot,analytics,ap-northeast,2025-07-20,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+60zz0i08,fel6246h,compute,ap-northeast,2025-08-21,running,Sin Especificar,False,Sin Asignar,core,False
+v8y5sic4,4zw9xa3k,compute,ap-northeast,2025-05-14,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+rg8my344,nam148p0,storage,us-west,2025-05-08,terminated,dev,False,alpha,Sin Asignar,False
+kh0uhk7x,teiyzcot,compute,us-west,2025-08-01,stopped,dev,False,Sin Asignar,core,False
+64caqkdm,okep7y6w,networking,us-west,2025-07-15,running,dev,False,Sin Asignar,Sin Asignar,True
+apht6o6a,a7tz0ync,genai,ap-northeast,2025-06-29,stopped,dev,False,alpha,ml,False
+okpg3dp4,ir4cowgz,database,ap-northeast,2025-05-05,running,prod,False,Sin Asignar,Sin Asignar,False
+f0a5zdke,i3qk2iag,storage,eu-central,2025-07-21,running,prod,True,beta,Sin Asignar,False
+6fhrxjpt,okep7y6w,genai,sa-east,2025-05-18,running,prod,False,Sin Asignar,Sin Asignar,False
+l15s74nd,pnsm43d8,compute,eu-west,2025-06-25,running,Sin Especificar,True,Sin Asignar,ml,False
+afs1iym9,3t60rjiw,compute,ap-south,2025-06-11,running,dev,True,Sin Asignar,core,False
+kr1ifsi1,pnsm43d8,compute,ap-northeast,2025-08-06,stopped,Sin Especificar,False,beta,ml,False
+xpr2d0vg,h2m5zja8,networking,ap-south,2025-07-12,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+ieb97pwd,cwi64ciy,compute,ap-northeast,2025-08-03,running,dev,True,Sin Asignar,core,False
+sz9hpcpb,h2m5zja8,genai,sa-east,2025-05-05,terminated,prod,True,Sin Asignar,ml,False
+kmplbbb0,9mx2x18h,database,us-east,2025-05-24,running,prod,False,Sin Asignar,Sin Asignar,False
+q6dg8nkd,trp0j43d,compute,eu-west,2025-07-04,running,Sin Especificar,False,alpha,core,False
+1em30vvi,1n13jcat,database,eu-central,2025-07-07,running,Sin Especificar,False,alpha,Sin Asignar,False
+hn5e0ev6,53lc58dr,compute,ap-south,2025-07-26,stopped,dev,False,Sin Asignar,ml,False
+z7ctm09h,pbhsahxt,database,eu-central,2025-05-21,stopped,prod,False,Sin Asignar,Sin Asignar,False
+bgtj5469,874frhoc,database,ap-northeast,2025-05-04,running,dev,False,beta,Sin Asignar,False
+weprs82g,1t2tala7,compute,eu-west,2025-06-14,stopped,Sin Especificar,False,beta,ml,False
+k8c9g3rt,5iqvnb4g,networking,eu-west,2025-06-18,stopped,Sin Especificar,False,Sin Asignar,ml,False
+f1n2ojgf,0lzjjege,storage,sa-east,2025-06-15,running,dev,False,alpha,Sin Asignar,False
+z52qzskh,dbdw2pcn,compute,us-east,2025-08-13,running,Sin Especificar,False,alpha,Sin Asignar,True
+eitkx7je,axeqbnhl,analytics,us-west,2025-06-30,running,Sin Especificar,False,beta,ml,False
+9hexw8l8,dzr1yxr2,storage,us-west,2025-08-07,stopped,Sin Especificar,False,alpha,Sin Asignar,False
+zowlc33h,ktakpuxq,networking,ap-south,2025-05-25,running,Sin Especificar,False,alpha,Sin Asignar,False
+g8t922d0,d14ve92m,storage,eu-central,2025-07-02,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+8jwvhplh,dbdw2pcn,database,eu-west,2025-07-19,stopped,Sin Especificar,True,Sin Asignar,ml,False
+q0pfrrq3,5935a0l7,database,sa-east,2025-06-10,running,prod,False,Sin Asignar,Sin Asignar,False
+gr0xafgo,sg65kxvf,networking,eu-west,2025-06-27,running,dev,False,Sin Asignar,core,False
+fpqxo0e1,5lxo6qji,compute,us-west,2025-08-10,running,Sin Especificar,False,alpha,core,True
+na31xbid,pbhsahxt,compute,us-west,2025-06-18,running,prod,False,Sin Asignar,Sin Asignar,False
+7v2a2t34,1n13jcat,database,us-west,2025-06-21,running,Sin Especificar,True,Sin Asignar,ml,True
+rupflfcy,gv0e38da,storage,us-west,2025-07-24,stopped,Sin Especificar,False,Sin Asignar,ml,False
+abtd5oai,zhwjr64d,compute,sa-east,2025-05-10,running,dev,False,Sin Asignar,Sin Asignar,True
+nmk7yyz6,rixa11dp,database,ap-northeast,2025-07-01,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+i8kcmm7d,cvs4f8cg,networking,sa-east,2025-05-05,running,Sin Especificar,False,alpha,ml,False
+gtvyfyk3,5lxo6qji,networking,sa-east,2025-05-27,running,Sin Especificar,False,beta,Sin Asignar,False
+5jrnj622,874frhoc,networking,us-west,2025-06-12,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+2ffq293e,pnsm43d8,storage,us-west,2025-06-06,stopped,prod,True,beta,Sin Asignar,False
+fle1mrr9,id25owf7,storage,ap-northeast,2025-06-27,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+e77nttrt,zbikcidk,compute,sa-east,2025-06-21,running,dev,False,Sin Asignar,Sin Asignar,True
+dzs13hdn,pja1wj0t,compute,ap-northeast,2025-07-06,running,dev,False,Sin Asignar,Sin Asignar,False
+9au87cm4,vyie6ivw,storage,eu-west,2025-05-04,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+q4t7phi0,8mdd4v30,networking,ap-south,2025-05-23,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+f0zpbdur,trp0j43d,database,ap-south,2025-08-06,stopped,prod,False,Sin Asignar,ml,False
+nccu3fg0,sg65kxvf,genai,us-west,2025-07-22,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+q0pxaecx,dppq0y9d,genai,ap-northeast,2025-05-23,running,prod,False,alpha,ml,False
+a3y5t37s,okep7y6w,database,ap-south,2025-07-09,running,dev,False,Sin Asignar,ml,True
+jdn80oco,jxepq85j,database,us-west,2025-07-10,running,Sin Especificar,True,Sin Asignar,ml,False
+yrxonbnp,kdgigatj,compute,ap-northeast,2025-06-20,stopped,Sin Especificar,False,alpha,core,False
+dn2mifdh,fel6246h,storage,us-east,2025-06-26,running,Sin Especificar,False,Sin Asignar,core,False
+1ltwbj9u,4zw9xa3k,analytics,us-west,2025-08-05,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+bl7amkoh,dhylurtp,storage,us-east,2025-06-24,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+9zdo0d3f,53lc58dr,database,eu-west,2025-05-10,stopped,dev,True,Sin Asignar,Sin Asignar,False
+v4kfq5dz,axeqbnhl,networking,us-west,2025-07-24,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+yfz9s9vs,d14ve92m,compute,eu-central,2025-05-05,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+2mm4p61n,rixa11dp,genai,ap-northeast,2025-07-08,running,dev,False,alpha,Sin Asignar,False
+v8u9da1l,he7ur23g,compute,us-west,2025-08-01,running,Sin Especificar,False,Sin Asignar,ml,False
+rqgkcumc,w3zp08j3,genai,ap-south,2025-05-13,running,dev,False,Sin Asignar,Sin Asignar,True
+91p778rn,pht0hl9x,storage,ap-south,2025-07-11,running,dev,False,alpha,Sin Asignar,False
+owypswld,ktakpuxq,compute,us-east,2025-05-13,running,dev,True,alpha,Sin Asignar,False
+j5ywx0i3,nam148p0,database,us-west,2025-05-11,running,Sin Especificar,False,Sin Asignar,ml,False
+4kfocnqd,phr62gds,compute,eu-west,2025-06-08,stopped,dev,False,beta,Sin Asignar,True
+t3dgd8op,pnsm43d8,compute,eu-west,2025-08-11,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+ll9rzrkb,a7tz0ync,storage,us-east,2025-05-23,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+fhu91c32,ykl1cq99,storage,us-east,2025-08-06,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+hha1pjgf,uzfk8ut0,compute,us-west,2025-05-05,running,dev,False,alpha,Sin Asignar,False
+c5qph6gb,h2m5zja8,genai,us-east,2025-05-15,running,prod,True,Sin Asignar,Sin Asignar,False
+8kh7rt28,afeyuhz1,storage,ap-northeast,2025-08-03,running,prod,True,beta,Sin Asignar,False
+u3u6h0uf,253j2d54,analytics,us-east,2025-07-01,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+a67rl2yj,hv3a3zmf,compute,us-east,2025-05-09,running,dev,False,Sin Asignar,ml,False
+wxub0gz1,cwi64ciy,compute,eu-central,2025-05-10,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+hhgy8nnk,g0fn9xuy,networking,ap-northeast,2025-07-01,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+zxqomts1,wm31yiha,database,ap-south,2025-07-10,stopped,Sin Especificar,False,Sin Asignar,ml,True
+qntfpkxy,xll4zklo,database,ap-south,2025-06-08,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+z76dd4da,dhylurtp,compute,us-west,2025-07-05,running,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+d0wtws3y,jxepq85j,networking,us-east,2025-05-09,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+h1te48m2,a7tz0ync,compute,eu-west,2025-07-25,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+o3z0anik,1t2tala7,database,us-east,2025-06-18,stopped,dev,False,alpha,Sin Asignar,False
+ya6ba24s,chj755nf,genai,us-west,2025-08-14,running,Sin Especificar,False,beta,Sin Asignar,False
+m89i9gx3,7e8g8jdp,networking,eu-central,2025-06-24,running,Sin Especificar,True,Sin Asignar,ml,False
+7o0olfiz,l58kxo9t,storage,us-east,2025-07-25,running,prod,False,Sin Asignar,Sin Asignar,False
+sw24wjt8,he7ur23g,database,ap-northeast,2025-08-14,running,dev,False,Sin Asignar,core,False
+dpwvbz7c,nam148p0,storage,ap-south,2025-05-21,terminated,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+a09w1gxh,rixa11dp,genai,us-east,2025-07-06,running,dev,False,alpha,ml,False
+03njbcfa,1n13jcat,compute,us-east,2025-05-24,running,dev,False,Sin Asignar,core,False
+7efjgc46,sg65kxvf,database,eu-central,2025-05-04,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+orac8cyn,5935a0l7,compute,sa-east,2025-05-25,running,Sin Especificar,False,beta,Sin Asignar,False
+wqfk6xw4,n9j2qp89,storage,ap-northeast,2025-07-25,stopped,Sin Especificar,False,Sin Asignar,ml,False
+99rwtf07,9t84azyt,database,eu-west,2025-06-27,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+basf5ehl,5lxo6qji,compute,ap-south,2025-07-12,running,dev,False,beta,core,False
+yejhdzxq,ofqewaou,networking,us-east,2025-07-29,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+p87jh4z8,okep7y6w,networking,eu-west,2025-05-18,stopped,Sin Especificar,False,alpha,ml,False
+2vfhzpqv,dppq0y9d,compute,us-east,2025-06-23,running,Sin Especificar,True,alpha,Sin Asignar,False
+ldnhm63q,1t2tala7,compute,ap-northeast,2025-06-04,stopped,Sin Especificar,False,alpha,core,False
+jov58toe,w3zp08j3,storage,eu-west,2025-05-21,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+pgihnfla,jxepq85j,compute,us-east,2025-06-28,running,prod,False,beta,core,False
+hulickhh,axeqbnhl,networking,eu-central,2025-06-20,running,Sin Especificar,False,alpha,Sin Asignar,False
+z83yuxyp,ujv6oh9s,database,us-east,2025-06-07,terminated,Sin Especificar,False,beta,ml,False
+h2r9pegl,1n13jcat,compute,sa-east,2025-06-12,running,Sin Especificar,True,alpha,ml,False
+aa2uaqe8,d14ve92m,compute,eu-central,2025-05-26,terminated,Sin Especificar,False,Sin Asignar,core,False
+67bxcd20,wnnhj7xv,compute,ap-south,2025-05-30,running,prod,True,alpha,Sin Asignar,False
+oulwozq4,i3qk2iag,compute,eu-central,2025-06-29,stopped,Sin Especificar,False,Sin Asignar,ml,False
+47di3e95,dppq0y9d,genai,eu-central,2025-05-17,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+gg6n6975,chj755nf,compute,ap-northeast,2025-06-03,running,Sin Especificar,True,alpha,core,False
+d8clw3jg,w3zp08j3,networking,ap-northeast,2025-05-21,stopped,dev,False,alpha,Sin Asignar,False
+elfv46wy,pnsm43d8,networking,eu-west,2025-07-28,running,dev,False,alpha,Sin Asignar,True
+x9l0ijkc,x7eedtjv,database,ap-northeast,2025-08-10,running,dev,False,beta,Sin Asignar,False
+x4zcrhyq,uzfk8ut0,genai,sa-east,2025-08-09,stopped,Sin Especificar,True,Sin Asignar,ml,False
+rm31sl7z,trp0j43d,database,us-west,2025-07-23,stopped,prod,True,Sin Asignar,Sin Asignar,False
+s6hn95s2,ir4cowgz,analytics,eu-central,2025-06-23,running,prod,False,Sin Asignar,core,False
+py8udqdd,phr62gds,storage,eu-west,2025-07-25,running,dev,False,Sin Asignar,ml,False
+jrtmetmh,cvs4f8cg,compute,ap-south,2025-06-18,running,Sin Especificar,True,alpha,Sin Asignar,False
+pmpnbn7g,afeyuhz1,database,us-east,2025-06-14,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+vtrpyx8h,c11ertj5,database,sa-east,2025-05-23,stopped,Sin Especificar,False,Sin Asignar,core,False
+6uitj5zo,sg65kxvf,genai,sa-east,2025-08-16,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+h3yrghwz,5935a0l7,compute,sa-east,2025-06-26,running,Sin Especificar,False,beta,Sin Asignar,False
+ag6w04yg,dppq0y9d,compute,ap-northeast,2025-06-29,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+flq8xpa9,53lc58dr,genai,us-east,2025-08-12,terminated,Sin Especificar,False,Sin Asignar,ml,True
+y4v8urid,om5igqpk,analytics,us-east,2025-07-03,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+ykis11d2,5lxo6qji,database,eu-central,2025-06-10,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+09jrnamz,sg65kxvf,genai,sa-east,2025-07-28,running,prod,False,Sin Asignar,core,True
+y0a94xfr,fel6246h,analytics,eu-central,2025-05-21,stopped,dev,False,beta,Sin Asignar,False
+zphd7ndj,ujv6oh9s,storage,eu-central,2025-07-03,terminated,Sin Especificar,False,alpha,ml,True
+jy5op9lb,41ibljh7,compute,ap-northeast,2025-05-24,running,Sin Especificar,False,beta,Sin Asignar,False
+4e2u2mda,pja1wj0t,compute,ap-northeast,2025-06-15,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+f8wxkk2a,ykl1cq99,database,us-west,2025-05-06,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+h3eram4b,xaji0y6d,genai,us-east,2025-07-15,running,prod,False,Sin Asignar,Sin Asignar,False
+mk4x1fdj,5935a0l7,database,us-east,2025-07-02,terminated,dev,False,alpha,Sin Asignar,True
+7kb7iyno,zbikcidk,compute,us-west,2025-06-27,terminated,Sin Especificar,False,Sin Asignar,ml,False
+67vgp52f,cvs4f8cg,genai,us-east,2025-07-31,running,dev,False,Sin Asignar,Sin Asignar,False
+johkk7qg,dzr1yxr2,compute,eu-west,2025-06-01,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+sysymmq8,0lvsnujz,storage,eu-west,2025-07-27,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+au8p1wki,kdgigatj,networking,us-east,2025-06-21,running,Sin Especificar,False,beta,ml,False
+w65b4eyq,nam148p0,compute,ap-northeast,2025-08-01,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+dj9dv3uy,0lvsnujz,database,eu-west,2025-07-03,terminated,Sin Especificar,False,Sin Asignar,core,True
+0y0bhf0r,5iqvnb4g,networking,eu-central,2025-08-13,stopped,dev,False,beta,Sin Asignar,False
+xfwz73wh,zhwjr64d,analytics,us-east,2025-06-11,running,Sin Especificar,False,Sin Asignar,ml,False
+avedhr3p,he7ur23g,networking,eu-west,2025-07-28,running,Sin Especificar,False,Sin Asignar,core,False
+7krgi4jw,kdgigatj,genai,eu-west,2025-05-12,terminated,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+wpwg3xg0,1swjckjl,compute,eu-central,2025-06-02,running,dev,True,Sin Asignar,Sin Asignar,True
+ky8ryozd,pac56t4u,compute,eu-west,2025-08-06,running,dev,True,Sin Asignar,Sin Asignar,True
+fkeoubxx,w3zp08j3,compute,us-east,2025-07-09,running,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+b68q0j9m,9t84azyt,database,ap-south,2025-05-13,running,prod,False,beta,Sin Asignar,False
+ssgfxuq4,pbhsahxt,networking,us-east,2025-06-08,stopped,prod,False,Sin Asignar,Sin Asignar,False
+k1ko6xnq,wnnhj7xv,database,ap-northeast,2025-05-06,running,prod,False,alpha,Sin Asignar,False
+zsxjzvuv,kdgigatj,compute,ap-northeast,2025-08-10,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+cb0ixryl,dbdw2pcn,database,ap-south,2025-06-17,running,dev,True,Sin Asignar,Sin Asignar,False
+30i6g61p,g8sbi4q2,compute,eu-central,2025-05-13,running,Sin Especificar,False,Sin Asignar,ml,False
+cjb0pnwb,cwi64ciy,networking,eu-west,2025-08-07,running,prod,False,Sin Asignar,Sin Asignar,False
+lzn9uhjp,t1ghr09s,networking,ap-south,2025-06-15,running,Sin Especificar,False,alpha,ml,False
+hf33guwy,afeyuhz1,compute,sa-east,2025-08-09,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+36motcg0,teiyzcot,compute,ap-south,2025-08-10,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+gh3sm642,8mdd4v30,storage,us-east,2025-07-25,running,dev,False,beta,Sin Asignar,True
+ncc2keiv,dppq0y9d,compute,sa-east,2025-08-03,running,Sin Especificar,False,beta,core,False
+i77jzc58,ujv6oh9s,analytics,eu-central,2025-08-21,terminated,Sin Especificar,True,alpha,ml,False
+iswlwt6u,0lvsnujz,storage,us-east,2025-06-13,running,Sin Especificar,False,beta,core,False
+bph5ch3l,dbdw2pcn,networking,us-east,2025-07-10,running,Sin Especificar,False,Sin Asignar,ml,False
+r3uv43mc,pvs7hzio,database,ap-south,2025-06-16,stopped,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+vwct8jbb,dhylurtp,storage,us-west,2025-06-10,stopped,dev,False,Sin Asignar,Sin Asignar,False
+xpk48ab1,9t84azyt,networking,ap-south,2025-06-19,terminated,dev,True,alpha,Sin Asignar,False
+4y0tb1zp,ofqewaou,storage,ap-northeast,2025-06-10,running,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+teew6mm7,ly8ozcyw,analytics,sa-east,2025-08-16,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+vi052u9a,ly8ozcyw,networking,us-east,2025-05-28,running,dev,False,Sin Asignar,Sin Asignar,False
+3cegbmxi,chj755nf,compute,ap-south,2025-05-28,running,Sin Especificar,False,alpha,Sin Asignar,False
+eoxxc7hz,tvhhpbmy,storage,us-east,2025-07-03,stopped,Sin Especificar,False,beta,Sin Asignar,False
+64pknt5i,41ibljh7,networking,us-west,2025-08-17,running,prod,False,alpha,Sin Asignar,False
+zsb6zwkh,om5igqpk,analytics,sa-east,2025-06-20,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+i0hn3f9z,chj755nf,analytics,sa-east,2025-07-20,running,Sin Especificar,True,Sin Asignar,core,True
+rbkn3dkv,i7p5tb94,compute,ap-northeast,2025-05-10,running,dev,False,Sin Asignar,core,True
+nbhgpbkt,53lc58dr,networking,ap-northeast,2025-05-31,stopped,Sin Especificar,False,beta,Sin Asignar,False
+761m3j1h,y9v86wzs,networking,sa-east,2025-06-24,running,prod,False,beta,core,False
+3pp00cdn,8mdd4v30,database,ap-northeast,2025-08-01,stopped,Sin Especificar,False,alpha,Sin Asignar,False
+47quusfn,g8sbi4q2,storage,us-east,2025-06-10,stopped,dev,False,Sin Asignar,Sin Asignar,False
+ea28ditm,y9v86wzs,compute,ap-northeast,2025-07-25,running,Sin Especificar,True,alpha,core,False
+jjjx1alx,teiyzcot,networking,ap-south,2025-07-16,stopped,Sin Especificar,True,alpha,ml,False
+paabmwuo,l58kxo9t,networking,us-west,2025-06-18,stopped,prod,False,Sin Asignar,ml,False
+6t8pj2jr,5935a0l7,analytics,us-west,2025-07-22,terminated,dev,False,beta,ml,False
+fwbeby4u,g0fn9xuy,compute,ap-south,2025-08-21,running,Sin Especificar,False,Sin Asignar,core,False
+ti899a44,chj755nf,genai,sa-east,2025-08-04,running,Sin Especificar,False,alpha,core,False
+idsechu3,wnnhj7xv,database,us-east,2025-06-05,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+x5fl2mox,cvs4f8cg,storage,eu-west,2025-07-24,running,prod,False,alpha,Sin Asignar,True
+bnkfvdhl,5935a0l7,networking,ap-northeast,2025-06-11,stopped,dev,False,beta,ml,False
+3b0n9cc7,ktakpuxq,compute,ap-south,2025-07-06,stopped,dev,False,Sin Asignar,Sin Asignar,False
+u9w0te52,jxepq85j,analytics,us-west,2025-08-13,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+xslhu6l2,dhylurtp,storage,ap-south,2025-06-21,running,dev,False,beta,ml,False
+l9yq8ocu,okep7y6w,storage,us-west,2025-07-08,running,Sin Especificar,False,Sin Asignar,ml,False
+6xvqpu3e,teiyzcot,analytics,ap-south,2025-05-24,stopped,dev,True,Sin Asignar,Sin Asignar,False
+6yxv2meo,wnnhj7xv,networking,ap-south,2025-08-04,running,prod,False,alpha,Sin Asignar,False
+r5hgqgp1,kdgigatj,networking,ap-south,2025-08-03,running,Sin Especificar,False,beta,core,True
+ebpy9e57,w3zp08j3,database,us-west,2025-06-29,terminated,prod,True,Sin Asignar,Sin Asignar,False
+ezikm3mv,xaji0y6d,compute,sa-east,2025-08-15,running,Sin Especificar,False,beta,ml,False
+b0mqoq4k,vyie6ivw,networking,us-east,2025-07-25,stopped,Sin Especificar,False,beta,ml,True
+00v3sfav,pht0hl9x,analytics,us-east,2025-07-07,stopped,dev,False,Sin Asignar,Sin Asignar,True
+lg0k1irb,zhwjr64d,compute,ap-south,2025-07-21,stopped,prod,True,Sin Asignar,Sin Asignar,False
+llgf309h,gv0e38da,networking,ap-northeast,2025-06-10,stopped,Sin Especificar,False,alpha,Sin Asignar,True
+5lmfkrig,ir4cowgz,storage,ap-northeast,2025-06-21,running,Sin Especificar,False,alpha,Sin Asignar,False
+917xfh41,n9j2qp89,networking,ap-south,2025-05-19,terminated,Sin Especificar,False,alpha,core,False
+68t2a3ah,id25owf7,compute,us-west,2025-07-05,running,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+0s3kdz4p,g8sbi4q2,storage,ap-northeast,2025-07-31,running,Sin Especificar,True,Sin Asignar,Sin Asignar,False
+rdeky820,kdgigatj,analytics,us-west,2025-07-05,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+cfmq0ycy,l58kxo9t,compute,eu-west,2025-07-23,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+dzsgu4w8,nam148p0,storage,us-east,2025-07-15,running,Sin Especificar,True,Sin Asignar,ml,False
+v5hhqrgr,pac56t4u,compute,ap-northeast,2025-07-25,terminated,prod,False,Sin Asignar,ml,False
+wds0hprw,kdgigatj,database,sa-east,2025-05-13,terminated,dev,False,Sin Asignar,core,False
+ywwimt85,ktakpuxq,compute,us-east,2025-06-14,stopped,prod,False,Sin Asignar,Sin Asignar,False
+yrwvtkh8,he7ur23g,compute,us-west,2025-06-08,running,dev,True,alpha,Sin Asignar,False
+lxeqlezz,0lvsnujz,analytics,us-west,2025-06-30,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+45vybjh4,a7tz0ync,genai,eu-west,2025-06-26,stopped,Sin Especificar,True,Sin Asignar,core,False
+ulyo3pjb,pht0hl9x,compute,us-west,2025-08-17,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+m3loufhw,d14ve92m,analytics,sa-east,2025-07-17,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+et8an2lm,5935a0l7,networking,ap-south,2025-06-08,running,Sin Especificar,False,beta,core,False
+snhft4i2,l58kxo9t,analytics,sa-east,2025-05-30,running,Sin Especificar,False,beta,Sin Asignar,False
+lh07ba7d,y9v86wzs,storage,us-west,2025-07-07,terminated,dev,True,Sin Asignar,Sin Asignar,True
+bkawyb03,c11ertj5,storage,us-west,2025-06-18,running,dev,True,beta,Sin Asignar,False
+e0jdcz1o,ujv6oh9s,storage,us-east,2025-07-04,running,Sin Especificar,False,Sin Asignar,core,False
+0t7dvo34,pac56t4u,database,eu-west,2025-07-15,stopped,dev,False,alpha,Sin Asignar,False
+0kqd8unp,0lzjjege,storage,ap-south,2025-05-30,running,dev,False,Sin Asignar,Sin Asignar,True
+ur6tiaro,phr62gds,analytics,ap-south,2025-05-07,running,Sin Especificar,False,beta,Sin Asignar,False
+1zqua1qr,sg65kxvf,analytics,ap-south,2025-06-29,running,Sin Especificar,False,beta,ml,False
+lfwduh7v,kdgigatj,compute,us-east,2025-07-06,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+wr0ui1jl,c11ertj5,genai,us-west,2025-06-05,stopped,Sin Especificar,False,beta,Sin Asignar,False
+4byv5jhu,hv3a3zmf,database,ap-south,2025-08-07,stopped,Sin Especificar,False,alpha,Sin Asignar,True
+r8iqrt00,zbikcidk,compute,us-east,2025-06-23,running,dev,False,Sin Asignar,ml,False
+zn1f0fp8,x7eedtjv,compute,sa-east,2025-06-16,running,dev,False,Sin Asignar,core,False
+rwsf5pae,n9j2qp89,analytics,ap-northeast,2025-06-21,running,Sin Especificar,True,beta,Sin Asignar,False
+jl6ufky2,dzr1yxr2,compute,us-west,2025-08-09,running,Sin Especificar,True,alpha,Sin Asignar,False
+jq77z4es,l58kxo9t,compute,us-east,2025-06-07,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,True
+aofc9lgy,y9v86wzs,storage,us-east,2025-07-02,stopped,prod,False,Sin Asignar,Sin Asignar,True
+dwvcw5ma,874frhoc,compute,eu-central,2025-05-16,running,prod,False,Sin Asignar,Sin Asignar,False
+k6p0n17u,pseimvih,storage,eu-west,2025-06-07,stopped,dev,False,alpha,core,False
+f0kjd2v1,jxepq85j,networking,eu-central,2025-06-08,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+u4v80w6h,dhylurtp,database,sa-east,2025-06-12,running,Sin Especificar,True,Sin Asignar,core,False
+ih7wfrac,53lc58dr,storage,ap-northeast,2025-05-19,terminated,Sin Especificar,False,alpha,ml,False
+3pqk1io1,pbhsahxt,genai,sa-east,2025-05-10,stopped,prod,True,Sin Asignar,Sin Asignar,True
+4lcvhfwj,kdgigatj,networking,ap-northeast,2025-08-03,running,dev,True,Sin Asignar,Sin Asignar,False
+ur2yupma,om5igqpk,compute,ap-south,2025-06-24,running,Sin Especificar,False,beta,Sin Asignar,False
+41mpw57g,cvs4f8cg,storage,eu-west,2025-08-10,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+g0apsald,i3qk2iag,genai,us-east,2025-06-11,stopped,prod,False,alpha,Sin Asignar,False
+7vbjrbzj,ly8ozcyw,compute,eu-central,2025-07-18,running,Sin Especificar,False,Sin Asignar,core,False
+83579wrr,nam148p0,networking,us-east,2025-08-04,stopped,prod,False,Sin Asignar,core,False
+b6f05ep4,ktakpuxq,compute,eu-west,2025-06-03,running,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+zl4j4x0l,vyie6ivw,storage,us-east,2025-06-10,terminated,Sin Especificar,False,beta,Sin Asignar,True
+g9znaxoy,xll4zklo,analytics,sa-east,2025-05-14,running,Sin Especificar,False,Sin Asignar,ml,True
+3s0dpjhs,9t84azyt,storage,sa-east,2025-06-30,running,prod,True,beta,Sin Asignar,False
+47lueq4d,cwi64ciy,compute,eu-central,2025-05-31,running,Sin Especificar,False,Sin Asignar,core,True
+ed0gv812,4zw9xa3k,analytics,sa-east,2025-05-29,stopped,dev,False,beta,Sin Asignar,False
+nc0i4x6g,ofqewaou,analytics,sa-east,2025-07-28,stopped,Sin Especificar,False,Sin Asignar,Sin Asignar,False
+bzgflig5,1n13jcat,compute,sa-east,2025-05-08,running,prod,True,Sin Asignar,Sin Asignar,True
