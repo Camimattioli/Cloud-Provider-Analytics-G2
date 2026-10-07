@@ -18,7 +18,7 @@ Análisis de un proveedor cloud a partir de datos de clientes, facturación, rec
 | `infra/` | Reservado para Docker, scripts o manifiestos de ejecución. |
 | `evidence/` | Reservado para logs, capturas y resultados de las entregas. |
 
-El detalle de cada CSV está en [data/README.md](data/README.md).
+La explicación de los siete CSV, la limpieza y lo que se encontró está en [data/README.md](data/README.md).
 
 ## Requisitos
 
