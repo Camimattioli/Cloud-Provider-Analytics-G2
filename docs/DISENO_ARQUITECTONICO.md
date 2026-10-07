@@ -53,7 +53,7 @@ El sistema consolida 8 fuentes de datos heterogéneas. A continuación se detall
 
 ## Diagrama de arquitectura de alto nivel
 
-![Cloud Provider Analytics · Arquitectura de alto nivel v1](img/arquitectura_alto_nivel.png)
+![Cloud Provider Analytics · Arquitectura de alto nivel v1](arquitectura_alto_nivel.png)
 
 ## Justificación del patrón
 
@@ -113,7 +113,7 @@ Para organizar el Data Lake armamos una estructura de carpetas clara y fácil de
 
 El uso de carpetas tipo year=YYYY/month=MM/ sigue el estándar de Hive, lo que le permite a Spark leer directamente solo el mes que necesita sin tener que recorrer todo el disco.
 
-![Estructura de carpetas del Data Lake](img/data_lake_estructura.png)
+![Estructura de carpetas del Data Lake](data_lake_estructura.png)
 
 ### Metadatos Técnicos y Linaje
 
@@ -179,4 +179,4 @@ Los supuestos, los riesgos y sus mitigaciones, la estimación de esfuerzo y los 
 
 ### Estructura Estándar del Repositorio de Código
 
-![Estructura estándar del repositorio de código](img/estructura_repositorio.png)
+![Estructura estándar del repositorio de código](estructura_repositorio.png)
