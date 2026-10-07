@@ -65,15 +65,7 @@ Se selecciona la Arquitectura Lambda debido a la naturaleza dual de las necesida
 
 Se descarta un enfoque puramente Batch porque no cumpliría los SLAs de detección temprana que exige la operación, y se descarta Kappa porque obligaría a modelar fuentes maestras y de facturación mensual estáticas como streams infinitos de eventos sin un beneficio operativo real.
 
-## Mapeo de requisitos a componentes tecnológicos
-
-| **Requisito / 5V** | **Componente Seleccionado** | **Justificación Técnica de la Elección** |
-| --- | --- | --- |
-| Velocidad & Near Real-Time | PySpark Structured Streaming | Procesamiento de micro-lotes con soporte de marcas de agua (watermarking) para gestionar eventos tardíos. |
-| Volumen y Persistencia Lake | Apache Parquet (Snappy) | Formato columnar comprimido que optimiza el I/O y reduce drásticamente el espacio en disco en Silver/Gold. |
-| Veracidad y Gobierno | Zona Quarantine + Rules Engine | Desvío automático de registros corruptos (eventos con costo negativo o sin event_id, registros que incumplen reglas de integridad) a almacenamiento aislado. |
-| Latencia de Serving (< 100ms) | Apache Cassandra / AstraDB | Base de datos NoSQL distribuida diseñada para escrituras masivas y lecturas sub-segundo bajo modelado Query-First. |
-| Variedad y Evolución Esquema | PySpark Schema Enforcement | Unificación transparente de eventos V1 y V2 en DataFrames de Spark con valores predeterminados en columnas opcionales. |
+La matriz que relaciona cada objetivo con el componente que lo cubre está en [MATRIZ_REQUISITO_COMPONENTE.md](MATRIZ_REQUISITO_COMPONENTE.md).
 
 ## Diseño detallado del Data Lake y gobernanza
 
