@@ -1,0 +1,440 @@
+{
+  "schema_cql_file": "infra/cassandra_schema.cql",
+  "connection_info": {
+    "connected_to_remote_cluster": false,
+    "note": "Variables ASTRA_TOKEN y ASTRA_SCB_PATH no definidas en el entorno; se verificaron las claves y particiones sobre los CSV de Gold."
+  },
+  "idempotency_upsert_verification": {
+    "rows_after_pass1": {
+      "finops_cost_by_org_day": 11050,
+      "support_sla_by_org_severity": 709,
+      "product_genai_tokens_by_org_day": 4580,
+      "cost_anomalies_by_org": 191
+    },
+    "rows_after_pass2": {
+      "finops_cost_by_org_day": 11050,
+      "support_sla_by_org_severity": 709,
+      "product_genai_tokens_by_org_day": 4580,
+      "cost_anomalies_by_org": 191
+    },
+    "is_idempotent": true
+  },
+  "tables_partition_sizing": [
+    {
+      "table_name": "cloud_analytics.finops_cost_by_org_day",
+      "partition_key": [
+        "org_id",
+        "year_month"
+      ],
+      "clustering_key": [
+        "usage_date",
+        "service"
+      ],
+      "total_partitions": 160,
+      "total_rows": 11050,
+      "min_rows_per_partition": 14,
+      "max_rows_per_partition": 147,
+      "avg_rows_per_partition": 69.06
+    },
+    {
+      "table_name": "cloud_analytics.support_sla_by_org_severity",
+      "partition_key": [
+        "org_id"
+      ],
+      "clustering_key": [
+        "severity",
+        "category"
+      ],
+      "total_partitions": 80,
+      "total_rows": 709,
+      "min_rows_per_partition": 3,
+      "max_rows_per_partition": 14,
+      "avg_rows_per_partition": 8.86
+    },
+    {
+      "table_name": "cloud_analytics.product_genai_tokens_by_org_day",
+      "partition_key": [
+        "org_id",
+        "year_month"
+      ],
+      "clustering_key": [
+        "usage_date"
+      ],
+      "total_partitions": 160,
+      "total_rows": 4580,
+      "min_rows_per_partition": 14,
+      "max_rows_per_partition": 31,
+      "avg_rows_per_partition": 28.62
+    },
+    {
+      "table_name": "cloud_analytics.cost_anomalies_by_org",
+      "partition_key": [
+        "org_id"
+      ],
+      "clustering_key": [
+        "timestamp",
+        "event_id"
+      ],
+      "total_partitions": 69,
+      "total_rows": 191,
+      "min_rows_per_partition": 1,
+      "max_rows_per_partition": 9,
+      "avg_rows_per_partition": 2.77
+    }
+  ],
+  "cql_queries_sample_output": {
+    "Q1_finops_cost_by_org_day": {
+      "cql": "SELECT usage_date, service, total_cost_usd, events_count, total_carbon_kg, mad_spike_count FROM cloud_analytics.finops_cost_by_org_day WHERE org_id = 'org_kdgigatj' AND year_month = '2025-08' LIMIT 5;",
+      "partition_total_rows": 123,
+      "sample_results": [
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-31",
+          "year": "2025",
+          "month": "8",
+          "service": "networking",
+          "events_count": "9",
+          "total_cost_usd": "5.3768",
+          "total_usage_value": "554.4562",
+          "total_carbon_kg": "0.1109",
+          "total_genai_tokens": "0",
+          "mad_spike_count": "0",
+          "zscore_spike_count": "0"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-31",
+          "year": "2025",
+          "month": "8",
+          "service": "compute",
+          "events_count": "9",
+          "total_cost_usd": "36.0579",
+          "total_usage_value": "424.4524",
+          "total_carbon_kg": "0.0849",
+          "total_genai_tokens": "0",
+          "mad_spike_count": "0",
+          "zscore_spike_count": "0"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-31",
+          "year": "2025",
+          "month": "8",
+          "service": "analytics",
+          "events_count": "3",
+          "total_cost_usd": "8.2683",
+          "total_usage_value": "126.2141",
+          "total_carbon_kg": "0.0252",
+          "total_genai_tokens": "0",
+          "mad_spike_count": "0",
+          "zscore_spike_count": "0"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-30",
+          "year": "2025",
+          "month": "8",
+          "service": "networking",
+          "events_count": "3",
+          "total_cost_usd": "1.1989",
+          "total_usage_value": "137.0026",
+          "total_carbon_kg": "0.0274",
+          "total_genai_tokens": "0",
+          "mad_spike_count": "0",
+          "zscore_spike_count": "0"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-30",
+          "year": "2025",
+          "month": "8",
+          "service": "genai",
+          "events_count": "3",
+          "total_cost_usd": "16.5979",
+          "total_usage_value": "124.1631",
+          "total_carbon_kg": "0.0248",
+          "total_genai_tokens": "1624",
+          "mad_spike_count": "0",
+          "zscore_spike_count": "0"
+        }
+      ]
+    },
+    "Q2_support_sla_by_org_severity": {
+      "cql": "SELECT severity, category, total_tickets, open_tickets, sla_breach_rate_pct, avg_resolution_hours, avg_valid_csat FROM cloud_analytics.support_sla_by_org_severity WHERE org_id = 'org_kdgigatj';",
+      "partition_total_rows": 11,
+      "sample_results": [
+        {
+          "severity": "critical",
+          "category": "security",
+          "total_tickets": 1,
+          "open_tickets": 0,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": 48.0,
+          "avg_valid_csat": null
+        },
+        {
+          "severity": "high",
+          "category": "availability",
+          "total_tickets": 1,
+          "open_tickets": 1,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": null,
+          "avg_valid_csat": null
+        },
+        {
+          "severity": "high",
+          "category": "billing",
+          "total_tickets": 2,
+          "open_tickets": 1,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": 336.0,
+          "avg_valid_csat": 5.0
+        },
+        {
+          "severity": "high",
+          "category": "usability",
+          "total_tickets": 1,
+          "open_tickets": 0,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": 240.0,
+          "avg_valid_csat": 3.0
+        },
+        {
+          "severity": "low",
+          "category": "integration",
+          "total_tickets": 2,
+          "open_tickets": 1,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": 96.0,
+          "avg_valid_csat": null
+        },
+        {
+          "severity": "low",
+          "category": "performance",
+          "total_tickets": 2,
+          "open_tickets": 1,
+          "sla_breach_rate_pct": 0.0,
+          "avg_resolution_hours": 24.0,
+          "avg_valid_csat": 3.0
+        }
+      ]
+    },
+    "Q3_product_genai_tokens_by_org_day": {
+      "cql": "SELECT usage_date, genai_events, genai_tokens_total, genai_cost_usd, total_org_cost_usd, genai_cost_share_pct FROM cloud_analytics.product_genai_tokens_by_org_day WHERE org_id = 'org_kdgigatj' AND year_month = '2025-08' LIMIT 5;",
+      "partition_total_rows": 31,
+      "sample_results": [
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "lifecycle_stage": "active",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-30",
+          "year": "2025",
+          "month": "8",
+          "total_events": "18",
+          "genai_events": "3",
+          "genai_tokens_total": "1624",
+          "genai_cost_usd": "16.5979",
+          "total_org_cost_usd": "56.0737",
+          "active_users_count": "8",
+          "org_header_nps": "10.0",
+          "genai_cost_share_pct": "29.6"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "lifecycle_stage": "active",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-29",
+          "year": "2025",
+          "month": "8",
+          "total_events": "17",
+          "genai_events": "3",
+          "genai_tokens_total": "1752",
+          "genai_cost_usd": "17.2932",
+          "total_org_cost_usd": "56.8165",
+          "active_users_count": "8",
+          "org_header_nps": "10.0",
+          "genai_cost_share_pct": "30.44"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "lifecycle_stage": "active",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-22",
+          "year": "2025",
+          "month": "8",
+          "total_events": "24",
+          "genai_events": "3",
+          "genai_tokens_total": "2087",
+          "genai_cost_usd": "16.3297",
+          "total_org_cost_usd": "57.2453",
+          "active_users_count": "8",
+          "org_header_nps": "10.0",
+          "genai_cost_share_pct": "28.53"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "lifecycle_stage": "active",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-21",
+          "year": "2025",
+          "month": "8",
+          "total_events": "12",
+          "genai_events": "3",
+          "genai_tokens_total": "1574",
+          "genai_cost_usd": "10.4219",
+          "total_org_cost_usd": "28.6419",
+          "active_users_count": "8",
+          "org_header_nps": "10.0",
+          "genai_cost_share_pct": "36.39"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "lifecycle_stage": "active",
+          "year_month": "2025-08",
+          "usage_date": "2025-08-19",
+          "year": "2025",
+          "month": "8",
+          "total_events": "20",
+          "genai_events": "3",
+          "genai_tokens_total": "1649",
+          "genai_cost_usd": "24.5251",
+          "total_org_cost_usd": "63.2574",
+          "active_users_count": "8",
+          "org_header_nps": "10.0",
+          "genai_cost_share_pct": "38.77"
+        }
+      ]
+    },
+    "Q4_cost_anomalies_by_org": {
+      "cql": "SELECT timestamp, event_id, service, metric, resource_id, cost_usd_increment, mad_modified_zscore, costcenter, team FROM cloud_analytics.cost_anomalies_by_org WHERE org_id = 'org_kdgigatj' LIMIT 5;",
+      "partition_total_rows": 7,
+      "sample_results": [
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "event_id": "evt_r5z4brmr689q",
+          "timestamp": "2025-08-26T01:07:00Z",
+          "usage_date": "2025-08-26",
+          "year_month": "2025-08",
+          "resource_id": "res_wds0hprw",
+          "service": "database",
+          "region": "sa-east",
+          "metric": "requests",
+          "value": "118.0",
+          "unit": "count",
+          "cost_usd_increment": "128.2206",
+          "mad_modified_zscore": "116.7028",
+          "classic_zscore": "17.4047",
+          "costcenter": "Sin Asignar",
+          "team": "Sin Asignar"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "event_id": "evt_3ovmr9pz3c0f",
+          "timestamp": "2025-08-19T23:18:00Z",
+          "usage_date": "2025-08-19",
+          "year_month": "2025-08",
+          "resource_id": "res_lfwduh7v",
+          "service": "compute",
+          "region": "us-east",
+          "metric": "storage_gb_hours",
+          "value": "2.2027",
+          "unit": "gb_hours",
+          "cost_usd_increment": "4.1686",
+          "mad_modified_zscore": "5.3226",
+          "classic_zscore": "2.1436",
+          "costcenter": "Sin Asignar",
+          "team": "Sin Asignar"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "event_id": "evt_zaf3icp7zfb8",
+          "timestamp": "2025-07-29T23:35:00Z",
+          "usage_date": "2025-07-29",
+          "year_month": "2025-07",
+          "resource_id": "res_yrxonbnp",
+          "service": "compute",
+          "region": "ap-northeast",
+          "metric": "storage_gb_hours",
+          "value": "9.296",
+          "unit": "gb_hours",
+          "cost_usd_increment": "16.9203",
+          "mad_modified_zscore": "25.3017",
+          "classic_zscore": "10.5177",
+          "costcenter": "Sin Asignar",
+          "team": "Sin Asignar"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "event_id": "evt_qtxsfdcqtbbd",
+          "timestamp": "2025-07-23T09:09:00Z",
+          "usage_date": "2025-07-23",
+          "year_month": "2025-07",
+          "resource_id": "res_wds0hprw",
+          "service": "database",
+          "region": "sa-east",
+          "metric": "requests",
+          "value": "115.0",
+          "unit": "count",
+          "cost_usd_increment": "133.141",
+          "mad_modified_zscore": "121.3997",
+          "classic_zscore": "18.1076",
+          "costcenter": "Sin Asignar",
+          "team": "Sin Asignar"
+        },
+        {
+          "org_id": "org_kdgigatj",
+          "org_name": "Zenith Tech 79",
+          "plan": "standard",
+          "event_id": "evt_1gew4o0qxg2e",
+          "timestamp": "2025-07-17T08:45:00Z",
+          "usage_date": "2025-07-17",
+          "year_month": "2025-07",
+          "resource_id": "res_zsxjzvuv",
+          "service": "compute",
+          "region": "ap-northeast",
+          "metric": "requests",
+          "value": "122.0",
+          "unit": "count",
+          "cost_usd_increment": "192.9004",
+          "mad_modified_zscore": "105.5225",
+          "classic_zscore": "13.7539",
+          "costcenter": "Sin Asignar",
+          "team": "Sin Asignar"
+        }
+      ]
+    }
+  }
+}
