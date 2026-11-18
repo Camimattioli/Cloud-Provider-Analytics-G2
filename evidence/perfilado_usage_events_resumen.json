@@ -1,0 +1,228 @@
+{
+  "dataset": "data/raw/usage_events_stream/events_part_*.jsonl",
+  "total_files": 120,
+  "rows_per_file": 360,
+  "total_events": 43200,
+  "total_size_bytes": 12970715,
+  "total_size_mb": 12.37,
+  "corrupt_json_lines": 0,
+  "schema_versions": {
+    "v1": {
+      "count": 10800,
+      "pct": 25.0,
+      "min_timestamp": "2025-07-03T00:02:00Z",
+      "max_timestamp": "2025-07-17T23:56:00Z",
+      "absent_keys": [
+        "carbon_kg",
+        "genai_tokens"
+      ]
+    },
+    "v2": {
+      "count": 32400,
+      "pct": 75.0,
+      "min_timestamp": "2025-07-18T00:01:00Z",
+      "max_timestamp": "2025-08-31T23:58:00Z",
+      "carbon_kg_present_count": 32400,
+      "genai_tokens_present_count": 3132,
+      "genai_tokens_note": "Present in 100% of v2 events where service == 'genai' (3,132 events); absent in other services."
+    }
+  },
+  "nulls": {
+    "event_id": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "timestamp": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "org_id": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "resource_id": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "service": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "region": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "metric": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "value": {
+      "count": 877,
+      "pct": 2.03
+    },
+    "unit": {
+      "count": 2075,
+      "pct": 4.8,
+      "recoverable_from_metric_pct": 100.0
+    },
+    "cost_usd_increment": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "schema_version": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "carbon_kg": {
+      "count": 10800,
+      "pct": 25.0,
+      "v2_nulls": 0
+    },
+    "genai_tokens": {
+      "count": 40068,
+      "pct": 92.75,
+      "v2_genai_service_nulls": 0
+    }
+  },
+  "duplicates": {
+    "unique_event_ids": 43200,
+    "duplicate_event_ids": 0,
+    "natural_key_org_res_ts_metric_duplicate_keys": 13,
+    "natural_key_org_res_ts_metric_duplicate_rows": 27
+  },
+  "cost_anomalies": {
+    "negative_cost_total": 216,
+    "negative_cost_pct": 0.5,
+    "negative_cost_lt_minus_0_01": 211,
+    "negative_cost_between_minus_0_01_and_0": 5,
+    "negative_cost_min_usd": -154.4608,
+    "positive_cost_max_usd": 317.4308,
+    "spikes_by_service_and_metric": {
+      "z_score_gt_3_0": 158,
+      "modified_z_score_mad_gt_3_5": 191,
+      "cost_gt_50_usd": 54
+    }
+  },
+  "temporal_and_watermark": {
+    "global_min_timestamp": "2025-07-03T00:02:00Z",
+    "global_max_timestamp": "2025-08-31T23:58:00Z",
+    "global_span_days": 60.0,
+    "events_per_day": 720,
+    "events_by_month": {
+      "2025-07": 20880,
+      "2025-08": 22320
+    },
+    "intra_batch_spread_days": {
+      "min": 58.97,
+      "median": 59.76,
+      "max": 59.98
+    },
+    "batch_0000_max_timestamp": "2025-08-31T16:32:00Z",
+    "lateness_hours_percentiles_batches_1_to_119": {
+      "p01": 13.47,
+      "p05": 71.7,
+      "p10": 143.57,
+      "p25": 359.83,
+      "p50": 720.08,
+      "p75": 1080.23,
+      "p90": 1296.13,
+      "p95": 1368.0,
+      "p99": 1425.02,
+      "p100": 1439.9
+    },
+    "watermark_drop_simulation": [
+      {
+        "watermark": "1 hour",
+        "hours": 1,
+        "dropped_events": 42801,
+        "dropped_pct": 99.08,
+        "retained_pct": 0.92
+      },
+      {
+        "watermark": "6 hours",
+        "hours": 6,
+        "dropped_events": 42654,
+        "dropped_pct": 98.74,
+        "retained_pct": 1.26
+      },
+      {
+        "watermark": "12 hours",
+        "hours": 12,
+        "dropped_events": 42461,
+        "dropped_pct": 98.29,
+        "retained_pct": 1.71
+      },
+      {
+        "watermark": "24 hours (1 day)",
+        "hours": 24,
+        "dropped_events": 42118,
+        "dropped_pct": 97.5,
+        "retained_pct": 2.5
+      },
+      {
+        "watermark": "72 hours (3 days)",
+        "hours": 72,
+        "dropped_events": 40683,
+        "dropped_pct": 94.17,
+        "retained_pct": 5.83
+      },
+      {
+        "watermark": "168 hours (7 days)",
+        "hours": 168,
+        "dropped_events": 37831,
+        "dropped_pct": 87.57,
+        "retained_pct": 12.43
+      },
+      {
+        "watermark": "336 hours (14 days)",
+        "hours": 336,
+        "dropped_events": 32833,
+        "dropped_pct": 76.0,
+        "retained_pct": 24.0
+      },
+      {
+        "watermark": "720 hours (30 days)",
+        "hours": 720,
+        "dropped_events": 21421,
+        "dropped_pct": 49.59,
+        "retained_pct": 50.41
+      },
+      {
+        "watermark": "1080 hours (45 days)",
+        "hours": 1080,
+        "dropped_events": 10721,
+        "dropped_pct": 24.82,
+        "retained_pct": 75.18
+      },
+      {
+        "watermark": "1344 hours (56 days)",
+        "hours": 1344,
+        "dropped_events": 2853,
+        "dropped_pct": 6.6,
+        "retained_pct": 93.4
+      },
+      {
+        "watermark": "1368 hours (57 days - p95)",
+        "hours": 1368,
+        "dropped_events": 2142,
+        "dropped_pct": 4.96,
+        "retained_pct": 95.04
+      },
+      {
+        "watermark": "1440 hours (60 days - 100%)",
+        "hours": 1440,
+        "dropped_events": 0,
+        "dropped_pct": 0.0,
+        "retained_pct": 100.0
+      }
+    ]
+  },
+  "referential_integrity": {
+    "stream_unique_orgs": 80,
+    "matched_in_customers_orgs": 80,
+    "stream_unique_resources": 400,
+    "matched_in_resources_raw_with_prefix": 400,
+    "matched_in_resources_clean_without_prefix": 0,
+    "org_service_region_mismatches_with_resources_raw": 0
+  }
+}
