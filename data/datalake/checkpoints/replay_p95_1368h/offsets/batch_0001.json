@@ -1,0 +1,16 @@
+{
+  "batch_id": 1,
+  "files": [
+    "events_part_0010.jsonl",
+    "events_part_0011.jsonl",
+    "events_part_0012.jsonl",
+    "events_part_0013.jsonl",
+    "events_part_0014.jsonl",
+    "events_part_0015.jsonl",
+    "events_part_0016.jsonl",
+    "events_part_0017.jsonl",
+    "events_part_0018.jsonl",
+    "events_part_0019.jsonl"
+  ],
+  "watermark_before_batch": "2025-07-05T23:56:00Z"
+}

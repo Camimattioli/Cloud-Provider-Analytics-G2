@@ -1,0 +1,136 @@
+{
+  "project_name": "Cloud-Provider-Analytics-G2",
+  "course": "ISTEA - Mineria de Datos II (2C 2026)",
+  "paths": {
+    "raw_dir": "data/raw",
+    "clean_dir": "data/clean",
+    "usage_events_raw_dir": "data/raw/usage_events_stream",
+    "datalake_dir": "data/datalake",
+    "bronze_dir": "data/datalake/bronze",
+    "silver_dir": "data/datalake/silver",
+    "gold_dir": "data/gold",
+    "quarantine_dir": "data/quarantine",
+    "checkpoints_dir": "data/datalake/checkpoints",
+    "evidence_dir": "evidence"
+  },
+  "spark": {
+    "app_name": "CloudProviderAnalyticsG2-ETL",
+    "master": "local[*]",
+    "timezone": "UTC",
+    "shuffle_partitions": 8,
+    "adaptive_enabled": true,
+    "partition_overwrite_mode": "dynamic",
+    "broadcast_threshold_bytes": 10485760
+  },
+  "partitioning": {
+    "time_series_datasets": {
+      "datasets": [
+        "usage_events",
+        "support_tickets",
+        "marketing_touches",
+        "finops_org_service_daily",
+        "product_genai_adoption_daily"
+      ],
+      "partition_by": ["year", "month"],
+      "sort_within_partitions": ["service", "org_id"]
+    },
+    "snapshot_datasets": {
+      "datasets": [
+        "customers_orgs",
+        "resources",
+        "users",
+        "nps_surveys",
+        "billing_monthly",
+        "finops_org_service_monthly",
+        "support_org_sla_severity"
+      ],
+      "partition_by": []
+    }
+  },
+  "quality_rules": {
+    "usage_events": {
+      "min_valid_cost_usd_increment": 0.0,
+      "quarantine_negative_cost_reason": "NEGATIVE_COST_INCREMENT",
+      "unit_imputation_map": {
+        "cpu_hours": "hours",
+        "requests": "count",
+        "storage_gb_hours": "gb_hours"
+      },
+      "anomaly_detection": {
+        "group_by": ["service", "metric"],
+        "primary_method": "MAD",
+        "mad_modified_zscore_threshold": 3.5,
+        "mad_normal_consistency_constant": 0.6745,
+        "comparison_method": "ZSCORE",
+        "classic_zscore_threshold": 3.0
+      }
+    },
+    "customers_orgs": {
+      "nps_min": -100.0,
+      "nps_max": 100.0
+    },
+    "billing_monthly": {
+      "default_null_credits": 0.0,
+      "preserve_negative_subtotals_as_credit_notes": true
+    },
+    "resources": {
+      "preserve_id_prefixes": ["res_", "org_"],
+      "tag_defaults": {
+        "env": "Sin Especificar",
+        "pii": false,
+        "costcenter": "Sin Asignar",
+        "team": "Sin Asignar",
+        "backup": false
+      }
+    },
+    "support_tickets": {
+      "csat_min": 1.0,
+      "csat_max": 5.0,
+      "nullify_csat_when_unresolved": true
+    },
+    "users": {
+      "nullify_login_before_created": true
+    },
+    "nps_surveys": {
+      "drop_empty_score_and_comment": true,
+      "outlier_low_threshold": -20.0,
+      "outlier_high_threshold": 80.0
+    }
+  },
+  "streaming": {
+    "max_files_per_trigger": 10,
+    "active_watermark_profile": "replay_full",
+    "watermark_profiles": {
+      "replay_full": {
+        "delay_threshold": "1440 hours",
+        "delay_hours": 1440,
+        "expected_retention_pct": 100.0,
+        "description": "Retiene el 100% (43.200/43.200) de los eventos ante el desorden sintetico de 60 dias entre los 120 archivos JSONL."
+      },
+      "replay_p95": {
+        "delay_threshold": "1368 hours",
+        "delay_hours": 1368,
+        "expected_retention_pct": 95.04,
+        "description": "Cubre el percentil 95 de latencia observada (57 dias = 1368 horas), reteniendo 41.058 de 43.200 eventos."
+      },
+      "production_realtime": {
+        "delay_threshold": "2 hours",
+        "delay_hours": 2,
+        "expected_retention_pct": null,
+        "description": "Umbral operativo para ingesta real ordenada con tolerancia de hasta 2 horas de retraso de red/cola."
+      }
+    },
+    "deduplication_keys": ["event_id"]
+  },
+  "serving_cassandra": {
+    "keyspace": "cloud_analytics",
+    "env_token_var": "ASTRA_TOKEN",
+    "env_scb_var": "ASTRA_SCB_PATH",
+    "tables": [
+      "finops_cost_by_org_day",
+      "support_sla_by_org_severity",
+      "product_genai_tokens_by_org_day",
+      "cost_anomalies_by_org"
+    ]
+  }
+}

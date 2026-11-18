@@ -1,0 +1,16 @@
+{
+  "batch_id": 0,
+  "files": [
+    "events_part_0000.jsonl",
+    "events_part_0001.jsonl",
+    "events_part_0002.jsonl",
+    "events_part_0003.jsonl",
+    "events_part_0004.jsonl",
+    "events_part_0005.jsonl",
+    "events_part_0006.jsonl",
+    "events_part_0007.jsonl",
+    "events_part_0008.jsonl",
+    "events_part_0009.jsonl"
+  ],
+  "watermark_before_batch": null
+}

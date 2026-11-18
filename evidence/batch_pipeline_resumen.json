@@ -1,0 +1,258 @@
+{
+  "bronze_counts": {
+    "usage_events_jsonl_files": 120,
+    "usage_events_raw_rows": 43200,
+    "usage_events_corrupt_json_rows": 0,
+    "customers_orgs_raw_rows": 80,
+    "billing_monthly_raw_rows": 240,
+    "resources_raw_rows": 400,
+    "users_raw_rows": 800,
+    "support_tickets_raw_rows": 1000,
+    "marketing_touches_raw_rows": 1500,
+    "nps_surveys_raw_rows": 92
+  },
+  "silver_and_quarantine_counts": {
+    "usage_events_silver_valid": 42984,
+    "usage_events_quarantined_negative_cost": 216,
+    "usage_events_unit_imputed_count": 2069,
+    "usage_events_value_null_preserved_count": 873,
+    "customers_orgs_silver": 80,
+    "customers_orgs_invalid_nps_nullified": 1,
+    "resources_silver": 400,
+    "billing_monthly_silver": 240,
+    "billing_monthly_credits_imputed": 137,
+    "billing_monthly_credit_notes_preserved": 13,
+    "support_tickets_silver": 1000,
+    "support_tickets_csat_nullified_total": 203,
+    "users_silver": 800,
+    "users_inconsistent_login_nullified": 232,
+    "marketing_touches_silver": 1500,
+    "nps_surveys_silver_valid": 91,
+    "nps_surveys_quarantined_empty": 1,
+    "referential_integrity_join_audit": {
+      "valid_events_total": 42984,
+      "duplicate_events_dropped": 0,
+      "org_join_matches": 42984,
+      "org_join_match_pct": 100.0,
+      "resource_join_matches": 42984,
+      "resource_join_match_pct": 100.0
+    },
+    "silver_usage_events_partitions": {
+      "year=2025/month=07": {
+        "events_count": 20775,
+        "total_cost_usd": 71749.7394,
+        "total_carbon_kg": 113.4685
+      },
+      "year=2025/month=08": {
+        "events_count": 22209,
+        "total_cost_usd": 76601.8615,
+        "total_carbon_kg": 252.0923
+      }
+    }
+  },
+  "anomaly_detection_comparison": {
+    "grouping_grain": [
+      "service",
+      "metric"
+    ],
+    "mad_modified_zscore_threshold": 3.5,
+    "classic_zscore_threshold": 3.0,
+    "mad_spikes_detected": 191,
+    "classic_zscore_spikes_detected": 153,
+    "spikes_detected_by_both": 152,
+    "stats_by_service_metric": {
+      "analytics__cpu_hours": {
+        "count": 1146.0,
+        "median": 0.12825,
+        "mad": 0.071,
+        "mean": 0.142506,
+        "std": 0.189266
+      },
+      "analytics__requests": {
+        "count": 2063.0,
+        "median": 8.3594,
+        "mad": 0.9562,
+        "mean": 9.086811,
+        "std": 11.270275
+      },
+      "analytics__storage_gb_hours": {
+        "count": 1362.0,
+        "median": 0.70695,
+        "mad": 0.3824,
+        "mean": 0.776272,
+        "std": 1.410134
+      },
+      "compute__cpu_hours": {
+        "count": 3125.0,
+        "median": 0.1406,
+        "mad": 0.083,
+        "mean": 0.160953,
+        "std": 0.261956
+      },
+      "compute__requests": {
+        "count": 5545.0,
+        "median": 9.5306,
+        "mad": 1.1721,
+        "mean": 10.484757,
+        "std": 13.262834
+      },
+      "compute__storage_gb_hours": {
+        "count": 3772.0,
+        "median": 0.77145,
+        "mad": 0.4305,
+        "mean": 0.904339,
+        "std": 1.522765
+      },
+      "database__cpu_hours": {
+        "count": 1762.0,
+        "median": 0.09295,
+        "mad": 0.05015,
+        "mean": 0.104162,
+        "std": 0.164017
+      },
+      "database__requests": {
+        "count": 3333.0,
+        "median": 5.9638,
+        "mad": 0.7066,
+        "mean": 6.386789,
+        "std": 7.000045
+      },
+      "database__storage_gb_hours": {
+        "count": 2280.0,
+        "median": 0.50045,
+        "mad": 0.28415,
+        "mean": 0.577761,
+        "std": 0.972526
+      },
+      "genai__cpu_hours": {
+        "count": 1072.0,
+        "median": 0.20715,
+        "mad": 0.12485,
+        "mean": 0.230869,
+        "std": 0.284313
+      },
+      "genai__requests": {
+        "count": 1832.0,
+        "median": 14.46335,
+        "mad": 1.65495,
+        "mean": 15.219233,
+        "std": 13.975757
+      },
+      "genai__storage_gb_hours": {
+        "count": 1233.0,
+        "median": 1.1647,
+        "mad": 0.6393,
+        "mean": 1.282495,
+        "std": 1.017105
+      },
+      "networking__cpu_hours": {
+        "count": 1654.0,
+        "median": 0.0177,
+        "mad": 0.0098,
+        "mean": 0.019424,
+        "std": 0.02197
+      },
+      "networking__requests": {
+        "count": 3191.0,
+        "median": 1.2039,
+        "mad": 0.1446,
+        "mean": 1.290284,
+        "std": 1.423403
+      },
+      "networking__storage_gb_hours": {
+        "count": 2044.0,
+        "median": 0.09555,
+        "mad": 0.05355,
+        "mean": 0.110702,
+        "std": 0.18164
+      },
+      "storage__cpu_hours": {
+        "count": 1884.0,
+        "median": 0.0356,
+        "mad": 0.0202,
+        "mean": 0.044095,
+        "std": 0.095705
+      },
+      "storage__requests": {
+        "count": 3436.0,
+        "median": 2.40145,
+        "mad": 0.28555,
+        "mean": 2.590432,
+        "std": 2.88264
+      },
+      "storage__storage_gb_hours": {
+        "count": 2250.0,
+        "median": 0.19105,
+        "mad": 0.11195,
+        "mean": 0.211047,
+        "std": 0.308416
+      }
+    }
+  },
+  "gold_marts_summary": {
+    "finops_org_service_daily_rows": 11050,
+    "finops_org_service_monthly_rows": 524,
+    "support_org_sla_severity_rows": 709,
+    "product_genai_adoption_daily_rows": 4580,
+    "cost_anomalies_by_org_rows": 191,
+    "total_valid_cost_usd": 148351.6009,
+    "total_carbon_kg": 365.5609,
+    "total_genai_tokens": 2545481,
+    "top_5_orgs_by_cost_usd": [
+      {
+        "org_id": "org_53lc58dr",
+        "org_name": "Apex Digital 16",
+        "plan": "standard",
+        "events_count": 1109,
+        "total_cost_usd": 4389.4683,
+        "total_carbon_kg": 9.9666,
+        "mad_spike_count": 1
+      },
+      {
+        "org_id": "org_chj755nf",
+        "org_name": "Delta Tech 32",
+        "plan": "pro",
+        "events_count": 955,
+        "total_cost_usd": 4367.5798,
+        "total_carbon_kg": 8.5235,
+        "mad_spike_count": 5
+      },
+      {
+        "org_id": "org_kdgigatj",
+        "org_name": "Zenith Tech 79",
+        "plan": "standard",
+        "events_count": 1222,
+        "total_cost_usd": 4351.4633,
+        "total_carbon_kg": 10.603,
+        "mad_spike_count": 7
+      },
+      {
+        "org_id": "org_pbhsahxt",
+        "org_name": "Nova Tech 1",
+        "plan": "standard",
+        "events_count": 1090,
+        "total_cost_usd": 4130.5376,
+        "total_carbon_kg": 9.0581,
+        "mad_spike_count": 3
+      },
+      {
+        "org_id": "org_ktakpuxq",
+        "org_name": "Delta Digital 49",
+        "plan": "pro",
+        "events_count": 855,
+        "total_cost_usd": 3567.0448,
+        "total_carbon_kg": 6.9161,
+        "mad_spike_count": 2
+      }
+    ]
+  },
+  "idempotency_verification": {
+    "consecutive_runs_compared": 2,
+    "finops_daily_rows_equal": true,
+    "total_cost_usd_pass1": 148351.6009,
+    "total_cost_usd_pass2": 148351.6009,
+    "cost_difference_usd": 0.0,
+    "quarantine_rows_equal": true,
+    "is_idempotent": true
+  }
+}

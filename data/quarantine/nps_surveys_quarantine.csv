@@ -1,0 +1,2 @@
+org_id,survey_date,nps_score,comment,_ingest_ts,_source_file,quarantine_reason
+org_5lxo6qji,2025-06-07,,,2026-11-18T18:45:18Z,data/raw/nps_surveys.csv,EMPTY_SURVEY_SCORE_AND_COMMENT
