@@ -1,0 +1,70 @@
+{
+  "master_orgs_count": 80,
+  "master_resources_count": 400,
+  "org_id_integrity_by_dataset": {
+    "customers_orgs_limpio.csv": {
+      "total_rows": 80,
+      "unique_org_ids": 80,
+      "matched_rows": 80,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "billing_monthly_limpio.csv": {
+      "total_rows": 240,
+      "unique_org_ids": 80,
+      "matched_rows": 240,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "resources_limpio.csv": {
+      "total_rows": 400,
+      "unique_org_ids": 80,
+      "matched_rows": 400,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "support_tickets_clean.csv": {
+      "total_rows": 1000,
+      "unique_org_ids": 80,
+      "matched_rows": 1000,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "users_limpio.csv": {
+      "total_rows": 800,
+      "unique_org_ids": 80,
+      "matched_rows": 800,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "marketing_touches_limpio.csv": {
+      "total_rows": 1500,
+      "unique_org_ids": 80,
+      "matched_rows": 1500,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "nps_surveys_clean.csv": {
+      "total_rows": 91,
+      "unique_org_ids": 59,
+      "matched_rows": 91,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    },
+    "usage_events_stream (120 JSONL)": {
+      "total_rows": 43200,
+      "unique_org_ids": 80,
+      "matched_rows": 43200,
+      "orphan_org_ids": 0,
+      "match_pct": 100.0
+    }
+  },
+  "resource_id_integrity_stream_vs_resources_limpio": {
+    "total_events": 43200,
+    "unique_resources_in_stream": 400,
+    "matched_events": 43200,
+    "matched_unique_resources": 400,
+    "orphan_resources": 0,
+    "match_pct": 100.0
+  }
+}
