@@ -1,0 +1,62 @@
+{
+  "question": "¿Cuál es el costo mensual acumulado en USD, la huella de carbono (kg) y el total de eventos válidos por (org_id, year_month, service)?",
+  "source_dataset": "data/raw/usage_events_stream/events_part_*.jsonl",
+  "grain": "(org_id, year_month, service)",
+  "metrics_by_phase": {
+    "1_input_splits": 120,
+    "2_mapper_records_read": 43200,
+    "2_mapper_quarantined_negative_cost": 216,
+    "2_mapper_pairs_emitted": 42984,
+    "3_combiner_local_pairs_emitted": 29457,
+    "3_combiner_network_reduction_pct": 31.47,
+    "4_shuffle_unique_keys": 524,
+    "5_reducer_output_records": 524,
+    "6_output_totals": {
+      "total_valid_events": 42984,
+      "total_cost_usd": 148351.6,
+      "total_carbon_kg": 365.5609
+    }
+  },
+  "top_5_org_month_service_by_cost": [
+    {
+      "org_id": "org_pnsm43d8",
+      "year_month": "2025-08",
+      "service": "compute",
+      "total_cost_usd": 1352.175,
+      "total_carbon_kg": 3.253719,
+      "total_events": 282
+    },
+    {
+      "org_id": "org_ktakpuxq",
+      "year_month": "2025-08",
+      "service": "compute",
+      "total_cost_usd": 1302.1338,
+      "total_carbon_kg": 3.120253,
+      "total_events": 292
+    },
+    {
+      "org_id": "org_ktakpuxq",
+      "year_month": "2025-07",
+      "service": "compute",
+      "total_cost_usd": 1237.9526,
+      "total_carbon_kg": 1.310748,
+      "total_events": 281
+    },
+    {
+      "org_id": "org_cwi64ciy",
+      "year_month": "2025-08",
+      "service": "compute",
+      "total_cost_usd": 1226.4847,
+      "total_carbon_kg": 2.592006,
+      "total_events": 227
+    },
+    {
+      "org_id": "org_pnsm43d8",
+      "year_month": "2025-07",
+      "service": "compute",
+      "total_cost_usd": 1152.8801,
+      "total_carbon_kg": 1.445329,
+      "total_events": 254
+    }
+  ]
+}
