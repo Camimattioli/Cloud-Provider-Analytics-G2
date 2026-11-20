@@ -1,8 +1,11 @@
 {
   "schema_cql_file": "infra/cassandra_schema.cql",
   "connection_info": {
-    "connected_to_remote_cluster": false,
-    "note": "Variables ASTRA_TOKEN y ASTRA_SCB_PATH no definidas en el entorno; se verificaron las claves y particiones sobre los CSV de Gold."
+    "connected_to_remote_cluster": true,
+    "upserted_finops_rows": 11050,
+    "upserted_support_rows": 709,
+    "upserted_product_rows": 4580,
+    "upserted_anomalies_rows": 191
   },
   "idempotency_upsert_verification": {
     "rows_after_pass1": {
